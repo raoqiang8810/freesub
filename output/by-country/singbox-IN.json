@@ -12,15 +12,15 @@
       "password": "GEdoeeqLZtkJRgSa"
     },
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
-      "server": "65.2.178.161",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-in-001.fastervpn.world",
-        "insecure": true
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -46,12 +46,12 @@
     {
       "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "vpn-in-001.fastervpn.world",
+      "server": "65.2.178.161",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "vpn-in-001.fastervpn.world",
         "insecure": true
       }
     },
