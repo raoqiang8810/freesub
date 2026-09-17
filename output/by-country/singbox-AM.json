@@ -5,23 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "129.151.64.169",
-      "server_port": 31867,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
+      "server": "172.67.67.178",
+      "server_port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/files",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "rAyAn-007.nAsTaRaN.DpDnS.OrG"
+        }
       }
     },
     {
@@ -29,14 +30,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
