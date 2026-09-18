@@ -5,14 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "192.145.31.5",
-      "server_port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": true
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
+      "server": "atomic-prase23893.my-vm.work",
+      "server_port": 8088,
+      "uuid": "f7c74a35-1da0-5097-9fa7-a20735610ac1",
+      "transport": {
+        "type": "ws",
+        "path": "/api",
+        "headers": {
+          "Host": "queuev4.vk.com"
+        }
       }
     },
     {
@@ -20,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
