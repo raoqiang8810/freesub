@@ -26,18 +26,18 @@ proxies:
   sni: 91.240.86.70
   skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: china.letsconnectpoint.com
+  server: 139.28.168.201
   port: 443
   udp: true
   type: vless
-  uuid: 914f3806-07a1-4158-9624-e183de065a38
+  uuid: a368752a-32fc-42f3-980a-6b049218b23f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
     short-id: 3b74d85e
   servername: china.letsconnectpoint.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
