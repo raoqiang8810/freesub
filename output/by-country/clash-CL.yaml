@@ -23,17 +23,6 @@ proxies:
     headers:
       Host: platform109.halalkhor.info
 - name: 🇨🇱 智利 (Chile) 03 - xiaohe
-  server: platform106.golnamakcert.top
-  port: 80
-  udp: true
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  ws-opts:
-    path: /platform106
-    headers:
-      Host: platform106.halalkhor.info
-- name: 🇨🇱 智利 (Chile) 04 - xiaohe
   server: platform107.golnamakcert.top
   port: 80
   udp: true
@@ -44,6 +33,17 @@ proxies:
     path: /platform107
     headers:
       Host: platform107.halalkhor.info
+- name: 🇨🇱 智利 (Chile) 04 - xiaohe
+  server: platform106.golnamakcert.top
+  port: 80
+  udp: true
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  network: ws
+  ws-opts:
+    path: /platform106
+    headers:
+      Host: platform106.halalkhor.info
 - name: 🇨🇱 智利 (Chile) 05 - xiaohe
   server: platform102.golnamakcert.top
   port: 80
