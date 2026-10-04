@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 131.123.13.93
+- name: 🇦🇶 AQ 01 - xiaohe
+  server: 2.27.26.128
   port: 443
   udp: true
   type: vless
-  uuid: 55ccbeb5-0bf4-4e4d-afcb-23c038e73e00
+  uuid: 8710a337-f504-4b75-8989-224cfd803b2d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: rj3rvl7AGOd0NOPrX6h2c1auXGnCBJTPMDeT86AMvBA
-    short-id: 29455a3a790acbd0
-  servername: 1mcfn.67resserv67.info
-  client-fingerprint: safari
+    public-key: HKkU-5UanGjWdmX8E-EGulXMk1BnidkFsVveyyOlTg8
+    short-id: 90f9d05bf95cb335
+  servername: aq-1.global-cdn.org
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
+  - 🇦🇶 AQ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
+  - 🇦🇶 AQ 01 - xiaohe
 rules:
 - MATCH,PROXIES
